@@ -1,0 +1,47 @@
+/*   
+Theme Name: Dogma-TheDay
+Theme URI: http://maartenpkappert.nl/dogma/
+Description: An extremely minimalist theme, following all ground rules of the minimalist web design 'dogma'. It is designed for lengthier, text-driven articles. The theme keeps every design aspect to a minimum: 1 single page design for every page, with the archive and links to other pages ever present; 1 column; 1 typeface in 1 color, 1 size and 2 weights; No 'homepage' in the classic sense; No header; No footer; No logo; No search functionality; No date mentions; No author name; No commenting; No separate archive page... Just the articles.
+Author: Maarten P. Kappert, Leendert Ullersma
+Author URI: http://maartenpkappert.nl/dogma/
+Tags: light, white, one-column
+This theme is uncopyrighted, free, and offered as is.
+
+.
+*/
+
+body 	{ width:35em; margin:0 0 120px 120px; font:15px/1.6em Georgia, "Microsoft Yahei", serif; color:#000; background:#FFF; }
+h1 		{ margin:120px 0 1.4em 0; font-size:1em; font-weight:bold }
+h2		{ font-size:1em; font-weight:bold }
+h3 		{ font-size:1em; font-weight:bold }
+h3.comments-title { margin:120px 0 1.4em 0; }
+h3.comment-reply-title { margin:120px 0 1.4em 0; }
+p 		{ margin:0 0 1.4em 0 }
+a 		{ color:#000; border-bottom:1px solid #000; text-decoration:none }
+.marklet 	{ color:#000; border:1px solid #000; padding:0 .2em; }
+
+ul, ol 		{ margin:0 0 1.4em 15px; padding:0; }
+
+ul li 		{ list-style:circle; margin:0 }
+ol li 		{ list-style:decimal; margin:0; list-style-position:inside; }
+
+ul.l, ul.menu, ul.comment-list	{ margin-left:0; }
+ul.l li, ul.menu li, ul.comment-list li	{ list-style:none; margin:0; padding:0 }
+
+blockquote	{ margin:0; font-style:italic }
+textarea    { display: block; }
+
+@media (max-width: 650px) {
+body 		{ width:75%; margin:0 0 15% 15% }
+h1                  { margin-top:15% }
+h3.comments-title	    { margin-top:15% }
+h3.comment-reply-title  { margin-top:15% }
+}
+
+@media (max-width: 480px) {
+body 		{ width:80%; margin:0 0 10% 10%; font-size:14px; line-height:1.7em }
+h1                  { margin-top:10% }
+h3.comments-title	    { margin-top:10% }
+h3.comment-reply-title    { margin-top:10% }
+}
+
