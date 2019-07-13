@@ -22,8 +22,8 @@ a 		{ color:#000; border-bottom:1px solid #000; text-decoration:none }
 
 ul, ol 		{ margin:0 0 1.4em 15px; padding:0; }
 
-ul li 		{ list-style:circle; margin:0 }
-ol li 		{ list-style:decimal; margin:0; list-style-position:inside; }
+ul li 		{ margin:0 }
+ol li 		{ margin:0; list-style-position:inside; }
 
 ul.l, ul.menu, ul.comment-list	{ margin-left:0; }
 ul.l li, ul.menu li, ul.comment-list li	{ list-style:none; margin:0; padding:0 }
