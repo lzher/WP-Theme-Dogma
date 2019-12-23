@@ -31,7 +31,7 @@ Template Name: All Posts
   		foreach ( $arcresults as $arcresult ) {
 ?>
 	<li>
-        <?php echo get_the_date('', $arcresult->ID); ?>
+        <?php echo get_the_date('', $arcresult->ID) . '&nbsp;&nbsp;'; ?>
 		<a href="<?php echo get_permalink($arcresult->ID); ?>">
 			<?php echo strip_tags(apply_filters('the_title', $arcresult->post_title)); ?>
 		</a>
